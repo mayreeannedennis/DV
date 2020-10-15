@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.top{
+    background-color: rebeccapurple;
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    border-bottom-left-radius: 150px;
+}
+.top p{
+    margin-left: 10px;
+}
+.top h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.top h2{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px; 
+}
+.top h2 a{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    text-decoration: none; 
+}
+
+form{
+    display: inline-block;
+    margin-top: 30px;
+}
+.allinputs{
+  text-align: center;
+ 
+  display: block;
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: cornsilk;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: solid brown 3px;
+    text-align: center;
+    margin-left: 70px ;
+}
+#email{
+    margin-left: 90px;
+}
+#pass{
+    margin-right: 2px;
+}
+.signup{
+    margin-top: 5px;
+    text-align: center;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    text-align: center;
+    /* margin-left: 70px; */
+}
+.login a{
+text-decoration: none;
+color: white;
+text-align: center;
+
+}
+@media(max-width: 800px){
+    
+.top{
+    background-color: rebeccapurple;
+    width: 40%;
+    height: 700px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    border-bottom-left-radius: 150px;
+}
+.top p{
+    margin-left: 10px;
+}
+.top h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.top h2{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px; 
+}
+.top h2 a{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    text-decoration: none; 
+}
+
+form{
+    display: inline-block;
+    margin-top: 30px;
+}
+.allinputs{
+  text-align: center;
+ 
+  display: block;
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: cornsilk;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: solid brown 3px;
+    text-align: center;
+    margin-left: 70px ;
+}
+#email{
+    margin-left: 90px;
+}
+#pass{
+    margin-right: 2px;
+}
+.signup{
+    margin-top: 5px;
+    text-align: center;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    text-align: center;
+    /* margin-left: 70px; */
+}
+.login a{
+text-decoration: none;
+color: white;
+text-align: center;
+
+}
+}
