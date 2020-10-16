@@ -76,7 +76,7 @@ box-sizing: border-box;
 .top h1{
     text-align: center;
     color: white;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .top h2{
     color: orange;
@@ -107,7 +107,7 @@ box-sizing: border-box;
   }
   .forgot{
       float: right;
-      margin-right: 40px;
+      margin-right: 20px;
       margin-top: 10px;
   }
   .forgot a{
