@@ -62,3 +62,65 @@ box-sizing: border-box;
       color: white;
       text-decoration: none;
   }
+  @media(max-width:900px){
+     
+.top{
+    background-color: rebeccapurple;
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    border-bottom-left-radius: 150px;
+}
+.top h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.top h2{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 10px; 
+}
+.top h2 a{
+    color: orange;
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    text-decoration:none ;
+}
+.allinput{
+    text-align: center; 
+  }
+  .allinput h3{
+      padding: 10px;
+  }
+  input{
+      width: 50%;
+      height: 30px;
+      border-radius: 20px;
+      text-decoration: none;
+      background-color: cornsilk;
+      border: none;
+  }
+  .forgot{
+      float: right;
+      margin-right: 40px;
+      margin-top: 10px;
+  }
+  .forgot a{
+      color: white;
+      text-decoration: none;
+  }
+  .log{
+      margin-top: 40px;
+      text-align: center;
+     
+  }
+  .log a{
+      color: white;
+      text-decoration: none;
+  } 
+  }
