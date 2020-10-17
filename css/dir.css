@@ -3,168 +3,24 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.pic1{
-    background-color: black;
-    width: 20%;
-    height: 200px;
-    padding: 5px;
-    margin-left: 50px;
+body{background-color: rgb(224, 67, 10)
+}
+#one{
+    margin-top: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+#one1 p{
     margin-top: 20px;
-    display: inline-block;
 }
-.pic1 p{
-    margin-top: 7px;
-    color: white;
+#one1 img{
+    border-left: solid black 3px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
-.pic1 p:hover{
-    color: tomato;
+#one1{border-radius: 20px;
+  
 }
-.pic2{
-    background-color: black;
-    width: 20%;
-    height: 200px;
-    padding: 5px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-
-}
-.pic2 p{
-    margin-top: 7px;
-    color: white;
-}
-.pic2 p:hover{
-    color: tomato;
-}
-.pic3{
-    background-color: black;
-    width: 20%;
-    height: 200px;
-    padding: 5px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-
-}
-.pic3 p{
-    margin-top: 7px;
-    color: white;
-}
-.pic3 p:hover{
-    color: tomato;
-}
-.pic4{
-    background-color: black;
-    width: 20%;
-    height: 200px;
-    padding: 5px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-
-}
-.pic4 p{
-    margin-top: 7px;
-    color: white;
-}
-.pic4 p:hover{
-    color: tomato;
-}
-.pic5{
-    background-color:black;
-    width: 20%;
-    height: 200px;
-    padding: 5px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-
-}
-.pic5 p{
-    margin-top: 7px;
-    color: white;
-}
-@media(min-width:900px){
-
-    .pic1{
-        background-color: black;
-        width: 20%;
-        height: 200px;
-        padding: 5px;
-        margin-left: 50px;
-        margin-top: 20px;
-        display: inline-block;
-    }
-    .pic1 p{
-        margin-top: 7px;
-        color: white;
-    }
-    .pic1 p:hover{
-        color: tomato;
-    }
-    .pic2{
-        background-color: black;
-        width: 20%;
-        height: 200px;
-        padding: 5px;
-        margin-left: 50px;
-        margin-top: 20px;
-        display: inline-block;
-    
-    }
-    .pic2 p{
-        margin-top: 7px;
-        color: white;
-    }
-    .pic2 p:hover{
-        color: tomato;
-    }
-    .pic3{
-        background-color: black;
-        width: 20%;
-        height: 200px;
-        padding: 5px;
-        margin-left: 50px;
-        margin-top: 20px;
-        display: inline-block;
-    
-    }
-    .pic3 p{
-        margin-top: 7px;
-        color: white;
-    }
-    .pic3 p:hover{
-        color: tomato;
-    }
-    .pic4{
-        background-color: black;
-        width: 20%;
-        height: 200px;
-        padding: 5px;
-        margin-left: 50px;
-        margin-top: 20px;
-        display: inline-block;
-    
-    }
-    .pic4 p{
-        margin-top: 7px;
-        color: white;
-    }
-    .pic4 p:hover{
-        color: tomato;
-    }
-    .pic5{
-        background-color:black;
-        width: 20%;
-        height: 200px;
-        padding: 5px;
-        margin-left: 50px;
-        margin-top: 20px;
-        display: inline-block;
-    
-    }
-    .pic5 p{
-        margin-top: 7px;
-        color: white;
-    }
+#lastp{
+    font-weight: bolder;
 }
