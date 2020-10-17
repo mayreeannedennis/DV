@@ -12,6 +12,7 @@ body{background-color: rgb(224, 67, 10)
 }
 #one1 p{
     margin-top: 20px;
+
 }
 #one1 img{
     border-left: solid black 3px;
@@ -24,3 +25,4 @@ body{background-color: rgb(224, 67, 10)
 #lastp{
     font-weight: bolder;
 }
+
