@@ -62,7 +62,7 @@ box-sizing: border-box;
       color: white;
       text-decoration: none;
   }
-  @media(max-width:1200px){
+  @media(max-width:900px){
      
 .top{
     background-color:  rgb(224, 67, 10);
