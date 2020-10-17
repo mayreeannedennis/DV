@@ -1,188 +1,168 @@
 *{
-    margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+margin: 0px;
+box-sizing: border-box;
 }
-body{
-    background-color:rgb(224, 67, 10);
-    width: 100%;
-}
-html{
-    scroll-behavior:smooth;
-}
-.banner{
-    width: 100%;
-}
-.banner img{
-    width: 100%
-}
-.TOP{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    background-color:rgba(0,0,0,0.4);
-    position: fixed;
+.top{
 
+    background-color: rgb(224, 67, 10);
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    border-bottom-left-radius: 150px;
 }
- .menu ul li{
-    display: inline-block;
-
-    margin-top: 10px;
-    padding: 20px;
-    margin-left: 100px;
+.top p{
+    margin-left: 10px;
+}
+.top h1{
+    text-align: center;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
+    padding: 10px;
 }
-.menu ul li:hover{
-color: red;
+.top h2{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px; 
 }
-ul li a{
+.top h2 a{
+    color: orange;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    text-decoration: none; 
+}
+
+form{
+    display: inline-block;
+    margin-top: 30px;
+}
+.allinputs{
+  text-align: center;
+ 
+  display: block;
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: cornsilk;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: solid brown 3px;
+    text-align: center;
+    margin-left: 70px ;
+}
+#email{
+    margin-left: 90px;
+}
+#pass{
+    margin-right: 2px;
+}
+.signup{
+    margin-top: 5px;
+    text-align: center;
+}
+.signup a{
     text-decoration: none;
     color: white;
 }
-ul li a:hover{
-    color: red
+.login{
+    text-align: center;
+    /* margin-left: 70px; */
 }
-.logo{
-    margin-top: 25px;
-    margin-left: 25px;
-    color: orange;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.login a{
+text-decoration: none;
+color: white;
+text-align: center;
+
 }
 
-.services{
-    text-align: center;
-    margin-top: 30px;
-    color: white;
+@media(max-width: 1000px){
     
+.top{
+    background-color:  rgb(224, 67, 10);
+
+    width: 40%;
+    height: 700px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    border-bottom-left-radius: 150px;
 }
-.services h1{ font-size: 30px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-transition-timing-function: ease-in 4s;
+.top p{
+    margin-left: 10px;
 }
-.services p{
-    font-size: 20px;
-    margin-top: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    word-spacing: 4px;
-    word-break: normal;
-    line-height: 25px;
+.top h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
-.services a{
+.top h2{
     color: orange;
-    text-decoration: none;   
-}
-.services a:hover{
-    color: red;
-    
-}
-.aboutus{
     text-align: center;
-    margin-top: 30px;
-    color: white;
-    
+    margin: 20px;
+    margin-top: 30px; 
 }
-.aboutus h1{ font-size: 30px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.aboutus p{
-    font-size: 20px;
-    margin-top: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    word-spacing: 4px;
-    word-break: normal;
-    line-height: 25px;
-}
-.contact{
+.top h2 a{
+    color: orange;
     text-align: center;
+    margin: 20px;
     margin-top: 30px;
-    color: white;
-    
-}
-.contact h1{ font-size: 30px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.contact p{
-    font-size: 20px;
-    margin-top: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    word-spacing: 4px;
-    word-break: normal;
+    text-decoration: none; 
 }
 
-   
 form{
-    display: block;
-}
-.message input{width: 20%;
-    height: 90px;
-    border-radius: 20px;
-    margin-top: 20px;
-    border: none;
-
-}
-label{
-    font-size: 20px;
-}
-.name{
     display: inline-block;
     margin-top: 30px;
 }
-.name label{
-    margin-left: 30px;
-}
-.name input{
-    width: 60%;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    margin-top:30px ;
-}
-.End{
-    text-align: center;
-    color: black;
-    margin-top: 30px;
-}
-.name button{
-   margin-top: 20px;
-   margin-left: 100px;
-   width: 40%;
-   height: 40px;
-   border-radius: 20px;
-   border: none;
-}
-.bar{
-    color: orangered;
-    display: none;
-    position: absolute;
-    right: 70px;
-    margin-top: 30px;
-   
-}
+.allinputs{
+  text-align: center;
  
-@media(max-width: 900px){
+  display: block;
 
-    .menu {
-        display: none;
-      
-    }
+}
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: cornsilk;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: solid brown 3px;
+    text-align: center;
+    margin-left: 30px ;
+}
+#email{
+  margin-left: 50px; 
+  }
 
-    .menu ul li {
-        display: block;
-      padding: 0px !important;
-      background-color: rgba(0,0,0,0.4);
-      margin-right: 70px;
-    }
-    
-.bar{
-    display: block;
-    position: absolute;
-    right: 70px;
-    margin-top: 30px;
-    color: chocolate;
+#pass{
+    margin-right: 2px;
 }
-.hide {
-    display: block;
+.signup{
+    margin-top: 5px;
+    text-align: center;
 }
-} 
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    text-align: center;
+    /* margin-left: 70px; */
+}
+.login a{
+text-decoration: none;
+color: white;
+text-align: center;
+
+}
+}
