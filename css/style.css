@@ -181,14 +181,3 @@ label{
     display: block;
 }
 } 
-@media(max-width: 600px){
-    .bar{
-        display: block;
-        position: absolute;
-        right: 70px;
-        margin-top: 30px;
-    }
-    .hide {
-        display: block;
-    }
-}
