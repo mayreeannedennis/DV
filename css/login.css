@@ -4,6 +4,7 @@ margin: 0px;
 box-sizing: border-box;
 }
 .top{
+
     background-color:rgb(224, 67, 10);
     width: 30%;
     height: 400px;
@@ -62,6 +63,7 @@ box-sizing: border-box;
       color: white;
       text-decoration: none;
   }
+
   @media(max-width:900px){
      
 .top{
@@ -124,3 +126,4 @@ box-sizing: border-box;
       text-decoration: none;
   } 
   }
+
