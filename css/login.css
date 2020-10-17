@@ -4,7 +4,8 @@ margin: 0px;
 box-sizing: border-box;
 }
 .top{
-    background-color: rgb(224,67,10);
+
+    background-color:rgb(224, 67, 10);
     width: 30%;
     height: 400px;
     margin: auto;
@@ -31,19 +32,29 @@ box-sizing: border-box;
     text-decoration:none ;
 }
 .allinput{
+    padding: 20px;
+    /* margin-bottom: 30px; */
     text-align: center; 
+    
+
   }
-  .allinput h3{
-      padding: 10px;
+  .allinput label{
+      padding: 15px;
   }
-  input{
+  .allinput input{
+  padding: 10px;
+margin-bottom: 30px;
+border-radius: 20px;
+border: none;}
+  
+  /* input{
       width: 50%;
       height: 30px;
       border-radius: 20px;
       text-decoration: none;
       background-color: cornsilk;
       border: none;
-  }
+  } */
   .forgot{
       float: right;
       margin-right: 40px;
@@ -62,11 +73,12 @@ box-sizing: border-box;
       color: white;
       text-decoration: none;
   }
-@media(max-width:900px){
-    
+
+  @media(max-width:900px){
+     
 .top{
-    background-color: rgb(224,67,10);
-    width: 30%;
+    background-color:  rgb(224, 67, 10);
+    width: 40%;
     height: 400px;
     margin: auto;
     margin-top: 40px;
@@ -76,35 +88,38 @@ box-sizing: border-box;
 .top h1{
     text-align: center;
     color: white;
-    
+    /* padding: 10px; */
 }
 .top h2{
     color: orange;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     margin-top: 10px; 
 }
 .top h2 a{
     color: orange;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     margin-top: 10px;
     text-decoration:none ;
 }
 .allinput{
+    padding: 20px;
+    /* margin-bottom: 30px; */
     text-align: center; 
+    
+
   }
-  .allinput h3{
-      padding: 10px;
+  .allinput label{
+      padding: 15px;
   }
-  input{
-      width: 50%;
-      height: 30px;
-      border-radius: 20px;
-      text-decoration: none;
-      background-color: cornsilk;
-      border: none;
-  }
+  .allinput input{
+  /* padding: 5px; */
+margin-bottom: 30px;
+border-radius: 20px;
+border: none;
+width: 80%;}
+  
   .forgot{
       float: right;
       margin-right: 20px;
@@ -122,4 +137,6 @@ box-sizing: border-box;
   .log a{
       color: white;
       text-decoration: none;
+  } 
   }
+
