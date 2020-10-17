@@ -4,7 +4,9 @@ margin: 0px;
 box-sizing: border-box;
 }
 .top{
+
     background-color: rgb(224,67,10);
+
     width: 30%;
     height: 400px;
     margin: auto;
@@ -62,11 +64,13 @@ box-sizing: border-box;
       color: white;
       text-decoration: none;
   }
-@media(max-width:900px){
-    
+
+  @media(max-width:900px){
+     
 .top{
-    background-color: rgb(224,67,10);
-    width: 30%;
+    background-color:  rgb(224, 67, 10);
+    width: 40%;
+
     height: 400px;
     margin: auto;
     margin-top: 40px;
@@ -76,18 +80,19 @@ box-sizing: border-box;
 .top h1{
     text-align: center;
     color: white;
-    
+
+    /* padding: 10px; */
 }
 .top h2{
     color: orange;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     margin-top: 10px; 
 }
 .top h2 a{
     color: orange;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     margin-top: 10px;
     text-decoration:none ;
 }
@@ -122,4 +127,6 @@ box-sizing: border-box;
   .log a{
       color: white;
       text-decoration: none;
+  } 
   }
+

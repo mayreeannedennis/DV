@@ -1,5 +1,5 @@
 let toggleButton = document.querySelector("#barBtn");
-let menuDisplay = document.querySelector(".menu");
+let menuDisplay = document.querySelector(".menu ");
 
 toggleButton.addEventListener("click", toggleBtn);
 

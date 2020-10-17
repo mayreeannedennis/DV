@@ -4,7 +4,7 @@ margin: 0px;
 box-sizing: border-box;
 }
 .top{
-    background-color: rgb(224,67,10);
+    background-color: rgb(224, 67, 10);
     width: 40%;
     height: 500px;
     margin: auto;
@@ -81,10 +81,9 @@ color: white;
 text-align: center;
 
 }
-@media(max-width: 700px){
-    
+@media(max-width: 1000px){   
 .top{
-    background-color:rgb(224,67,10);
+    background-color:  rgb(224, 67, 10);
     width: 40%;
     height: 700px;
     margin: auto;
@@ -135,10 +134,12 @@ input{
     margin-bottom: 30px;
     border: solid brown 3px;
     text-align: center;
-    margin-left: 70px ;
+    margin-left: 30px ;
 }
 #email{
-    margin-left: 30px;
+
+    margin-left: 50px;
+
 }
 #pass{
     margin-right: 2px;
