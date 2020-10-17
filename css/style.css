@@ -165,10 +165,14 @@ label{
 
     .menu {
         display: none;
+      
     }
 
     .menu ul li {
-        display: none;
+        display: block;
+      padding: 0px !important;
+      background-color: rgba(0,0,0,0.4)
+      margin-right: 70px;
     }
     
 .bar{
@@ -176,6 +180,7 @@ label{
     position: absolute;
     right: 70px;
     margin-top: 30px;
+    color: chocolate;
 }
 .hide {
     display: block;
